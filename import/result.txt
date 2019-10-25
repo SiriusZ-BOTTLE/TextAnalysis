@@ -1,0 +1,910 @@
+关闭define,关闭优化
+    <TextStream>
+    <Text>
+    其实一开始要写这个测试文本,我是拒绝的.我不能从早肝到晚上,又是框架设计,又是代码实现,又是找BUG,现在又来写测试文本.但是没有办法,没有其他人来写啊,那我只能顶着极高的自闭值,亲自写这一份测试文本.
+
+    <NumberSequence>
+    [-1735242, -1724770, -1787776, -1721216, -1726581, -1530239, -1735015, -1523815, -1787734, -1657461, -1527915, -1665401, -1663828, 44, -1668975, -1664849, -1668206, -1590371, -1598844, 46, -1668975, -1787763, -1539139, -1786994, -1665111, -1539427, -1734480, -1664614, -1787766, 44, -1732728, -1664849, -1662586, -1663306, -1528130, -1528159, 44, -1732728, -1664849, -1786973, -1597311, -1724770, -1601872, 44, -1732728, -1664849, -1668674, 66, 85, 71, 44, -1601872, -1729368, -1732728, -1663579, -1735015, -1657461, -1527915, -1665401, -1663828, 46, -1786490, -1664849, -1658207, -1663863, -1733986, -1657963, 44, -1658207, -1663863, -1735242, -1786986, -1787206, -1663579, -1735015, -1731190, 44, -1473885, -1668975, -1732694, -1539139, -1465930, -1598080, -1663359, -1463400, -1598844, -1538134, -1468499, -1736516, 44, -1787214, -1538134, -1735015, -1523815, -1787776, -1786947, -1657461, -1527915, -1665401, -1663828, 46]
+    <FlagsIgnored>
+    []
+    <KeyWords>
+    [文本:26.8346, 测试:21.4417, 自闭:12.8021]
+    [[-1665401, -1663828], [-1657461, -1527915], [-1538134, -1468499]]
+
+    <WordsInfo>
+    <ignored> 0 <Word> 其实 <Type> d <STA> 0 <UNum> 2 <NSeq> [-1735242, -1724770]
+    <ignored> 0 <Word> 一 <Type> m <STA> 6 <UNum> 1 <NSeq> [-1787776]
+    <ignored> 0 <Word> 开始 <Type> v <STA> 9 <UNum> 2 <NSeq> [-1721216, -1726581]
+    <ignored> 0 <Word> 要 <Type> v <STA> 15 <UNum> 1 <NSeq> [-1530239]
+    <ignored> 0 <Word> 写 <Type> v <STA> 18 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 这个 <Type> r <STA> 21 <UNum> 2 <NSeq> [-1523815, -1787734]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 27 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 33 <UNum> 2 <NSeq> [-1665401, -1663828]
+    <ignored> 0 <Word> 我 <Type> r <STA> 40 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 是 <Type> v <STA> 43 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 拒绝 <Type> v <STA> 46 <UNum> 2 <NSeq> [-1668206, -1590371]
+    <ignored> 0 <Word> 的 <Type> uj <STA> 52 <UNum> 1 <NSeq> [-1598844]
+    <ignored> 0 <Word> 我 <Type> r <STA> 56 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 不能 <Type> v <STA> 59 <UNum> 2 <NSeq> [-1787763, -1539139]
+    <ignored> 0 <Word> 从 <Type> p <STA> 65 <UNum> 1 <NSeq> [-1786994]
+    <ignored> 0 <Word> 早 <Type> a <STA> 68 <UNum> 1 <NSeq> [-1665111]
+    <ignored> 0 <Word> 肝 <Type> n <STA> 71 <UNum> 1 <NSeq> [-1539427]
+    <ignored> 0 <Word> 到 <Type> v <STA> 74 <UNum> 1 <NSeq> [-1734480]
+    <ignored> 0 <Word> 晚上 <Type> t <STA> 77 <UNum> 2 <NSeq> [-1664614, -1787766]
+    <ignored> 0 <Word> 又 <Type> d <STA> 84 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 87 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 框架 <Type> n <STA> 90 <UNum> 2 <NSeq> [-1662586, -1663306]
+    <ignored> 0 <Word> 设计 <Type> vn <STA> 96 <UNum> 2 <NSeq> [-1528130, -1528159]
+    <ignored> 0 <Word> 又 <Type> d <STA> 103 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 106 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 代码 <Type> n <STA> 109 <UNum> 2 <NSeq> [-1786973, -1597311]
+    <ignored> 0 <Word> 实现 <Type> v <STA> 115 <UNum> 2 <NSeq> [-1724770, -1601872]
+    <ignored> 0 <Word> 又 <Type> d <STA> 122 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 125 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 找 <Type> v <STA> 128 <UNum> 1 <NSeq> [-1668674]
+    <ignored> 0 <Word> BUG <Type> eng <STA> 131 <UNum> 3 <NSeq> [66, 85, 71]
+    <ignored> 0 <Word> 现在 <Type> t <STA> 135 <UNum> 2 <NSeq> [-1601872, -1729368]
+    <ignored> 0 <Word> 又 <Type> d <STA> 141 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 来 <Type> v <STA> 144 <UNum> 1 <NSeq> [-1663579]
+    <ignored> 0 <Word> 写 <Type> v <STA> 147 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 150 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 156 <UNum> 2 <NSeq> [-1665401, -1663828]
+    <ignored> 0 <Word> 但是 <Type> c <STA> 163 <UNum> 2 <NSeq> [-1786490, -1664849]
+    <ignored> 0 <Word> 没有 <Type> v <STA> 169 <UNum> 2 <NSeq> [-1658207, -1663863]
+    <ignored> 0 <Word> 办法 <Type> n <STA> 175 <UNum> 2 <NSeq> [-1733986, -1657963]
+    <ignored> 0 <Word> 没有 <Type> v <STA> 182 <UNum> 2 <NSeq> [-1658207, -1663863]
+    <ignored> 0 <Word> 其他 <Type> r <STA> 188 <UNum> 2 <NSeq> [-1735242, -1786986]
+    <ignored> 0 <Word> 他人 <Type> r <STA> 191 <UNum> 2 <NSeq> [-1786986, -1787206]
+    <ignored> 0 <Word> 其他人 <Type> rr <STA> 188 <UNum> 3 <NSeq> [-1735242, -1786986, -1787206]
+    <ignored> 0 <Word> 来 <Type> v <STA> 197 <UNum> 1 <NSeq> [-1663579]
+    <ignored> 0 <Word> 写 <Type> v <STA> 200 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 啊 <Type> zg <STA> 203 <UNum> 1 <NSeq> [-1731190]
+    <ignored> 0 <Word> 那 <Type> r <STA> 207 <UNum> 1 <NSeq> [-1473885]
+    <ignored> 0 <Word> 我 <Type> r <STA> 210 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 只能 <Type> v <STA> 213 <UNum> 2 <NSeq> [-1732694, -1539139]
+    <ignored> 0 <Word> 顶 <Type> v <STA> 219 <UNum> 1 <NSeq> [-1465930]
+    <ignored> 0 <Word> 着 <Type> uz <STA> 222 <UNum> 1 <NSeq> [-1598080]
+    <ignored> 0 <Word> 极 <Type> d <STA> 225 <UNum> 1 <NSeq> [-1663359]
+    <ignored> 0 <Word> 高 <Type> a <STA> 228 <UNum> 1 <NSeq> [-1463400]
+    <ignored> 0 <Word> 的 <Type> uj <STA> 231 <UNum> 1 <NSeq> [-1598844]
+    <ignored> 0 <Word> 自闭 <Type> v <STA> 234 <UNum> 2 <NSeq> [-1538134, -1468499]
+    <ignored> 0 <Word> 值 <Type> n <STA> 240 <UNum> 1 <NSeq> [-1736516]
+    <ignored> 0 <Word> 亲自 <Type> d <STA> 244 <UNum> 2 <NSeq> [-1787214, -1538134]
+    <ignored> 0 <Word> 写 <Type> v <STA> 250 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 这 <Type> r <STA> 253 <UNum> 1 <NSeq> [-1523815]
+    <ignored> 0 <Word> 一份 <Type> m <STA> 256 <UNum> 2 <NSeq> [-1787776, -1786947]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 262 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 268 <UNum> 2 <NSeq> [-1665401, -1663828]
+
+
+    <SEG#0>
+    其实 一 开始 要 写 这个 测试 文本 我 是 拒绝 的
+
+    <SEG#1>
+    我 不能 从 早 肝 到 晚上 又 是 框架 设计
+
+    <SEG#2>
+    又 是 代码 实现 又 是 找 BUG 现在 又 来 写 测试 文本
+
+    <SEG#3>
+    但是 没有 办法 没有 其他 他人 其他人 来 写 啊 那 我 只能 顶 着 极 高 的 自闭 值
+
+    <SEG#4>
+    亲自 写 这 一份 测试 文本
+
+    <TextStream>
+    <Text>
+    其实一开始要写这个测试文本,我是不想写的.我不能从早忙到晚上,又是框架设计,又是代码实现,又是找BUG,现在又来写测试文本.但是没有办法,没有其他人来写啊,那我只能压制住难过的情绪,亲自写这一份测试文本.
+
+    <NumberSequence>
+    [-1735242, -1724770, -1787776, -1721216, -1726581, -1530239, -1735015, -1523815, -1787734, -1657461, -1527915, -1665401, -1663828, 44, -1668975, -1664849, -1787763, -1670221, -1735015, -1598844, 46, -1668975, -1787763, -1539139, -1786994, -1665111, -1720423, -1734480, -1664614, -1787766, 44, -1732728, -1664849, -1662586, -1663306, -1528130, -1528159, 44, -1732728, -1664849, -1786973, -1597311, -1724770, -1601872, 44, -1732728, -1664849, -1668674, 66, 85, 71, 44, -1601872, -1729368, -1732728, -1663579, -1735015, -1657461, -1527915, -1665401, -1663828, 46, -1786490, -1664849, -1658207, -1663863, -1733986, -1657963, 44, -1658207, -1663863, -1735242, -1786986, -1787206, -1663579, -1735015, -1731190, 44, -1473885, -1668975, -1732694, -1539139, -1732981, -1734474, -1786481, -1467714, -1523833, -1598844, -1670267, -1590358, 44, -1787214, -1538134, -1735015, -1523815, -1787776, -1786947, -1657461, -1527915, -1665401, -1663828, 46]
+    <FlagsIgnored>
+    []
+    <KeyWords>
+    [文本:26.8346, 测试:21.4417, BUG:11.7392]
+    [[-1665401, -1663828], [-1657461, -1527915], [66, 85, 71]]
+
+    <WordsInfo>
+    <ignored> 0 <Word> 其实 <Type> d <STA> 0 <UNum> 2 <NSeq> [-1735242, -1724770]
+    <ignored> 0 <Word> 一 <Type> m <STA> 6 <UNum> 1 <NSeq> [-1787776]
+    <ignored> 0 <Word> 开始 <Type> v <STA> 9 <UNum> 2 <NSeq> [-1721216, -1726581]
+    <ignored> 0 <Word> 要 <Type> v <STA> 15 <UNum> 1 <NSeq> [-1530239]
+    <ignored> 0 <Word> 写 <Type> v <STA> 18 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 这个 <Type> r <STA> 21 <UNum> 2 <NSeq> [-1523815, -1787734]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 27 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 33 <UNum> 2 <NSeq> [-1665401, -1663828]
+    <ignored> 0 <Word> 我 <Type> r <STA> 40 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 是 <Type> v <STA> 43 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 不想 <Type> v <STA> 46 <UNum> 2 <NSeq> [-1787763, -1670221]
+    <ignored> 0 <Word> 写 <Type> v <STA> 52 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 的 <Type> uj <STA> 55 <UNum> 1 <NSeq> [-1598844]
+    <ignored> 0 <Word> 我 <Type> r <STA> 59 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 不能 <Type> v <STA> 62 <UNum> 2 <NSeq> [-1787763, -1539139]
+    <ignored> 0 <Word> 从 <Type> p <STA> 68 <UNum> 1 <NSeq> [-1786994]
+    <ignored> 0 <Word> 早 <Type> a <STA> 71 <UNum> 1 <NSeq> [-1665111]
+    <ignored> 0 <Word> 忙 <Type> v <STA> 74 <UNum> 1 <NSeq> [-1720423]
+    <ignored> 0 <Word> 到 <Type> v <STA> 77 <UNum> 1 <NSeq> [-1734480]
+    <ignored> 0 <Word> 晚上 <Type> t <STA> 80 <UNum> 2 <NSeq> [-1664614, -1787766]
+    <ignored> 0 <Word> 又 <Type> d <STA> 87 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 90 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 框架 <Type> n <STA> 93 <UNum> 2 <NSeq> [-1662586, -1663306]
+    <ignored> 0 <Word> 设计 <Type> vn <STA> 99 <UNum> 2 <NSeq> [-1528130, -1528159]
+    <ignored> 0 <Word> 又 <Type> d <STA> 106 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 109 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 代码 <Type> n <STA> 112 <UNum> 2 <NSeq> [-1786973, -1597311]
+    <ignored> 0 <Word> 实现 <Type> v <STA> 118 <UNum> 2 <NSeq> [-1724770, -1601872]
+    <ignored> 0 <Word> 又 <Type> d <STA> 125 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 128 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 找 <Type> v <STA> 131 <UNum> 1 <NSeq> [-1668674]
+    <ignored> 0 <Word> BUG <Type> eng <STA> 134 <UNum> 3 <NSeq> [66, 85, 71]
+    <ignored> 0 <Word> 现在 <Type> t <STA> 138 <UNum> 2 <NSeq> [-1601872, -1729368]
+    <ignored> 0 <Word> 又 <Type> d <STA> 144 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 来 <Type> v <STA> 147 <UNum> 1 <NSeq> [-1663579]
+    <ignored> 0 <Word> 写 <Type> v <STA> 150 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 153 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 159 <UNum> 2 <NSeq> [-1665401, -1663828]
+    <ignored> 0 <Word> 但是 <Type> c <STA> 166 <UNum> 2 <NSeq> [-1786490, -1664849]
+    <ignored> 0 <Word> 没有 <Type> v <STA> 172 <UNum> 2 <NSeq> [-1658207, -1663863]
+    <ignored> 0 <Word> 办法 <Type> n <STA> 178 <UNum> 2 <NSeq> [-1733986, -1657963]
+    <ignored> 0 <Word> 没有 <Type> v <STA> 185 <UNum> 2 <NSeq> [-1658207, -1663863]
+    <ignored> 0 <Word> 其他 <Type> r <STA> 191 <UNum> 2 <NSeq> [-1735242, -1786986]
+    <ignored> 0 <Word> 他人 <Type> r <STA> 194 <UNum> 2 <NSeq> [-1786986, -1787206]
+    <ignored> 0 <Word> 其他人 <Type> rr <STA> 191 <UNum> 3 <NSeq> [-1735242, -1786986, -1787206]
+    <ignored> 0 <Word> 来 <Type> v <STA> 200 <UNum> 1 <NSeq> [-1663579]
+    <ignored> 0 <Word> 写 <Type> v <STA> 203 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 啊 <Type> zg <STA> 206 <UNum> 1 <NSeq> [-1731190]
+    <ignored> 0 <Word> 那 <Type> r <STA> 210 <UNum> 1 <NSeq> [-1473885]
+    <ignored> 0 <Word> 我 <Type> r <STA> 213 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 只能 <Type> v <STA> 216 <UNum> 2 <NSeq> [-1732694, -1539139]
+    <ignored> 0 <Word> 压制 <Type> n <STA> 222 <UNum> 2 <NSeq> [-1732981, -1734474]
+    <ignored> 0 <Word> 制住 <Type> v <STA> 225 <UNum> 2 <NSeq> [-1734474, -1786481]
+    <ignored> 0 <Word> 压制住 <Type> v <STA> 222 <UNum> 3 <NSeq> [-1732981, -1734474, -1786481]
+    <ignored> 0 <Word> 难过 <Type> v <STA> 231 <UNum> 2 <NSeq> [-1467714, -1523833]
+    <ignored> 0 <Word> 的 <Type> uj <STA> 237 <UNum> 1 <NSeq> [-1598844]
+    <ignored> 0 <Word> 情绪 <Type> n <STA> 240 <UNum> 2 <NSeq> [-1670267, -1590358]
+    <ignored> 0 <Word> 亲自 <Type> d <STA> 247 <UNum> 2 <NSeq> [-1787214, -1538134]
+    <ignored> 0 <Word> 写 <Type> v <STA> 253 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 这 <Type> r <STA> 256 <UNum> 1 <NSeq> [-1523815]
+    <ignored> 0 <Word> 一份 <Type> m <STA> 259 <UNum> 2 <NSeq> [-1787776, -1786947]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 265 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 271 <UNum> 2 <NSeq> [-1665401, -1663828]
+
+
+    <SEG#0>
+    其实 一 开始 要 写 这个 测试 文本 我 是 不想 写 的
+
+    <SEG#1>
+    我 不能 从 早 忙 到 晚上 又 是 框架 设计
+
+    <SEG#2>
+    又 是 代码 实现 又 是 找 BUG 现在 又 来 写 测试 文本
+
+    <SEG#3>
+    但是 没有 办法 没有 其他 他人 其他人 来 写 啊 那 我 只能 压制 制住 压制住 难过 的 情绪
+
+    <SEG#4>
+    亲自 写 这 一份 测试 文本
+
+    <LEV> size1: 12 size2: 13
+    <LEV> size1: 12 size2: 11
+    <LEV> size1: 12 size2: 14
+    <LEV> size1: 12 size2: 19
+    <LEV> size1: 12 size2: 6
+    <LEV> size1: 11 size2: 13
+    <LEV> size1: 11 size2: 11
+    <LEV> size1: 11 size2: 14
+    <LEV> size1: 11 size2: 19
+    <LEV> size1: 11 size2: 6
+    <LEV> size1: 14 size2: 13
+    <LEV> size1: 14 size2: 11
+    <LEV> size1: 14 size2: 14
+    <LEV> size1: 14 size2: 19
+    <LEV> size1: 14 size2: 6
+    <LEV> size1: 20 size2: 13
+    <LEV> size1: 20 size2: 11
+    <LEV> size1: 20 size2: 14
+    <LEV> size1: 20 size2: 19
+    <LEV> size1: 20 size2: 6
+    <LEV> size1: 6 size2: 13
+    <LEV> size1: 6 size2: 11
+    <LEV> size1: 6 size2: 14
+    <LEV> size1: 6 size2: 19
+    <LEV> size1: 6 size2: 6
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 3
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 3
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 3
+
+    85.78%
+
+关闭define,开启O2优化
+    <TextStream>
+    <Text>
+    其实一开始要写这个测试文本,我是拒绝的.我不能从早肝到晚上,又是框架设计,又是代码实现,又是找BUG,现在又来写测试文本.但是没有办法,没有其他人来写啊,那我只能顶着极高的自闭值,亲自写这一份测试文本.
+
+    <NumberSequence>
+    [-1735242, -1724770, -1787776, -1721216, -1726581, -1530239, -1735015, -1523815, -1787734, -1657461, -1527915, -1665401, -1663828, 44, -1668975, -1664849, -1668206, -1590371, -1598844, 46, -1668975, -1787763, -1539139, -1786994, -1665111, -1539427, -1734480, -1664614, -1787766, 44, -1732728, -1664849, -1662586, -1663306, -1528130, -1528159, 44, -1732728, -1664849, -1786973, -1597311, -1724770, -1601872, 44, -1732728, -1664849, -1668674, 66, 85, 71, 44, -1601872, -1729368, -1732728, -1663579, -1735015, -1657461, -1527915, -1665401, -1663828, 46, -1786490, -1664849, -1658207, -1663863, -1733986, -1657963, 44, -1658207, -1663863, -1735242, -1786986, -1787206, -1663579, -1735015, -1731190, 44, -1473885, -1668975, -1732694, -1539139, -1465930, -1598080, -1663359, -1463400, -1598844, -1538134, -1468499, -1736516, 44, -1787214, -1538134, -1735015, -1523815, -1787776, -1786947, -1657461, -1527915, -1665401, -1663828, 46]
+    <FlagsIgnored>
+    []
+    <KeyWords>
+    [文本:26.8346, 测试:21.4417, 自闭:12.8021]
+    [[-1665401, -1663828], [-1657461, -1527915], [-1538134, -1468499]]
+
+    <WordsInfo>
+    <ignored> 0 <Word> 其实 <Type> d <STA> 0 <UNum> 2 <NSeq> [-1735242, -1724770]
+    <ignored> 0 <Word> 一 <Type> m <STA> 6 <UNum> 1 <NSeq> [-1787776]
+    <ignored> 0 <Word> 开始 <Type> v <STA> 9 <UNum> 2 <NSeq> [-1721216, -1726581]
+    <ignored> 0 <Word> 要 <Type> v <STA> 15 <UNum> 1 <NSeq> [-1530239]
+    <ignored> 0 <Word> 写 <Type> v <STA> 18 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 这个 <Type> r <STA> 21 <UNum> 2 <NSeq> [-1523815, -1787734]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 27 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 33 <UNum> 2 <NSeq> [-1665401, -1663828]
+    <ignored> 0 <Word> 我 <Type> r <STA> 40 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 是 <Type> v <STA> 43 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 拒绝 <Type> v <STA> 46 <UNum> 2 <NSeq> [-1668206, -1590371]
+    <ignored> 0 <Word> 的 <Type> uj <STA> 52 <UNum> 1 <NSeq> [-1598844]
+    <ignored> 0 <Word> 我 <Type> r <STA> 56 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 不能 <Type> v <STA> 59 <UNum> 2 <NSeq> [-1787763, -1539139]
+    <ignored> 0 <Word> 从 <Type> p <STA> 65 <UNum> 1 <NSeq> [-1786994]
+    <ignored> 0 <Word> 早 <Type> a <STA> 68 <UNum> 1 <NSeq> [-1665111]
+    <ignored> 0 <Word> 肝 <Type> n <STA> 71 <UNum> 1 <NSeq> [-1539427]
+    <ignored> 0 <Word> 到 <Type> v <STA> 74 <UNum> 1 <NSeq> [-1734480]
+    <ignored> 0 <Word> 晚上 <Type> t <STA> 77 <UNum> 2 <NSeq> [-1664614, -1787766]
+    <ignored> 0 <Word> 又 <Type> d <STA> 84 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 87 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 框架 <Type> n <STA> 90 <UNum> 2 <NSeq> [-1662586, -1663306]
+    <ignored> 0 <Word> 设计 <Type> vn <STA> 96 <UNum> 2 <NSeq> [-1528130, -1528159]
+    <ignored> 0 <Word> 又 <Type> d <STA> 103 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 106 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 代码 <Type> n <STA> 109 <UNum> 2 <NSeq> [-1786973, -1597311]
+    <ignored> 0 <Word> 实现 <Type> v <STA> 115 <UNum> 2 <NSeq> [-1724770, -1601872]
+    <ignored> 0 <Word> 又 <Type> d <STA> 122 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 125 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 找 <Type> v <STA> 128 <UNum> 1 <NSeq> [-1668674]
+    <ignored> 0 <Word> BUG <Type> eng <STA> 131 <UNum> 3 <NSeq> [66, 85, 71]
+    <ignored> 0 <Word> 现在 <Type> t <STA> 135 <UNum> 2 <NSeq> [-1601872, -1729368]
+    <ignored> 0 <Word> 又 <Type> d <STA> 141 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 来 <Type> v <STA> 144 <UNum> 1 <NSeq> [-1663579]
+    <ignored> 0 <Word> 写 <Type> v <STA> 147 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 150 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 156 <UNum> 2 <NSeq> [-1665401, -1663828]
+    <ignored> 0 <Word> 但是 <Type> c <STA> 163 <UNum> 2 <NSeq> [-1786490, -1664849]
+    <ignored> 0 <Word> 没有 <Type> v <STA> 169 <UNum> 2 <NSeq> [-1658207, -1663863]
+    <ignored> 0 <Word> 办法 <Type> n <STA> 175 <UNum> 2 <NSeq> [-1733986, -1657963]
+    <ignored> 0 <Word> 没有 <Type> v <STA> 182 <UNum> 2 <NSeq> [-1658207, -1663863]
+    <ignored> 0 <Word> 其他 <Type> r <STA> 188 <UNum> 2 <NSeq> [-1735242, -1786986]
+    <ignored> 0 <Word> 他人 <Type> r <STA> 191 <UNum> 2 <NSeq> [-1786986, -1787206]
+    <ignored> 0 <Word> 其他人 <Type> rr <STA> 188 <UNum> 3 <NSeq> [-1735242, -1786986, -1787206]
+    <ignored> 0 <Word> 来 <Type> v <STA> 197 <UNum> 1 <NSeq> [-1663579]
+    <ignored> 0 <Word> 写 <Type> v <STA> 200 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 啊 <Type> zg <STA> 203 <UNum> 1 <NSeq> [-1731190]
+    <ignored> 0 <Word> 那 <Type> r <STA> 207 <UNum> 1 <NSeq> [-1473885]
+    <ignored> 0 <Word> 我 <Type> r <STA> 210 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 只能 <Type> v <STA> 213 <UNum> 2 <NSeq> [-1732694, -1539139]
+    <ignored> 0 <Word> 顶 <Type> v <STA> 219 <UNum> 1 <NSeq> [-1465930]
+    <ignored> 0 <Word> 着 <Type> uz <STA> 222 <UNum> 1 <NSeq> [-1598080]
+    <ignored> 0 <Word> 极 <Type> d <STA> 225 <UNum> 1 <NSeq> [-1663359]
+    <ignored> 0 <Word> 高 <Type> a <STA> 228 <UNum> 1 <NSeq> [-1463400]
+    <ignored> 0 <Word> 的 <Type> uj <STA> 231 <UNum> 1 <NSeq> [-1598844]
+    <ignored> 0 <Word> 自闭 <Type> v <STA> 234 <UNum> 2 <NSeq> [-1538134, -1468499]
+    <ignored> 0 <Word> 值 <Type> n <STA> 240 <UNum> 1 <NSeq> [-1736516]
+    <ignored> 0 <Word> 亲自 <Type> d <STA> 244 <UNum> 2 <NSeq> [-1787214, -1538134]
+    <ignored> 0 <Word> 写 <Type> v <STA> 250 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 这 <Type> r <STA> 253 <UNum> 1 <NSeq> [-1523815]
+    <ignored> 0 <Word> 一份 <Type> m <STA> 256 <UNum> 2 <NSeq> [-1787776, -1786947]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 262 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 268 <UNum> 2 <NSeq> [-1665401, -1663828]
+
+
+    <SEG#0>
+    其实 一 开始 要 写 这个 测试 文本 我 是 拒绝 的
+
+    <SEG#1>
+    我 不能 从 早 肝 到 晚上 又 是 框架 设计
+
+    <SEG#2>
+    又 是 代码 实现 又 是 找 BUG 现在 又 来 写 测试 文本
+
+    <SEG#3>
+    但是 没有 办法 没有 其他 他人 其他人 来 写 啊 那 我 只能 顶 着 极 高 的 自闭 值
+
+    <SEG#4>
+    亲自 写 这 一份 测试 文本
+
+    <TextStream>
+    <Text>
+    其实一开始要写这个测试文本,我是不想写的.我不能从早忙到晚上,又是框架设计,又是代码实现,又是找BUG,现在又来写测试文本.但是没有办法,没有其他人来写啊,那我只能压制住难过的情绪,亲自写这一份测试文本.
+
+    <NumberSequence>
+    [-1735242, -1724770, -1787776, -1721216, -1726581, -1530239, -1735015, -1523815, -1787734, -1657461, -1527915, -1665401, -1663828, 44, -1668975, -1664849, -1787763, -1670221, -1735015, -1598844, 46, -1668975, -1787763, -1539139, -1786994, -1665111, -1720423, -1734480, -1664614, -1787766, 44, -1732728, -1664849, -1662586, -1663306, -1528130, -1528159, 44, -1732728, -1664849, -1786973, -1597311, -1724770, -1601872, 44, -1732728, -1664849, -1668674, 66, 85, 71, 44, -1601872, -1729368, -1732728, -1663579, -1735015, -1657461, -1527915, -1665401, -1663828, 46, -1786490, -1664849, -1658207, -1663863, -1733986, -1657963, 44, -1658207, -1663863, -1735242, -1786986, -1787206, -1663579, -1735015, -1731190, 44, -1473885, -1668975, -1732694, -1539139, -1732981, -1734474, -1786481, -1467714, -1523833, -1598844, -1670267, -1590358, 44, -1787214, -1538134, -1735015, -1523815, -1787776, -1786947, -1657461, -1527915, -1665401, -1663828, 46]
+    <FlagsIgnored>
+    []
+    <KeyWords>
+    [文本:26.8346, 测试:21.4417, BUG:11.7392]
+    [[-1665401, -1663828], [-1657461, -1527915], [66, 85, 71]]
+
+    <WordsInfo>
+    <ignored> 0 <Word> 其实 <Type> d <STA> 0 <UNum> 2 <NSeq> [-1735242, -1724770]
+    <ignored> 0 <Word> 一 <Type> m <STA> 6 <UNum> 1 <NSeq> [-1787776]
+    <ignored> 0 <Word> 开始 <Type> v <STA> 9 <UNum> 2 <NSeq> [-1721216, -1726581]
+    <ignored> 0 <Word> 要 <Type> v <STA> 15 <UNum> 1 <NSeq> [-1530239]
+    <ignored> 0 <Word> 写 <Type> v <STA> 18 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 这个 <Type> r <STA> 21 <UNum> 2 <NSeq> [-1523815, -1787734]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 27 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 33 <UNum> 2 <NSeq> [-1665401, -1663828]
+    <ignored> 0 <Word> 我 <Type> r <STA> 40 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 是 <Type> v <STA> 43 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 不想 <Type> v <STA> 46 <UNum> 2 <NSeq> [-1787763, -1670221]
+    <ignored> 0 <Word> 写 <Type> v <STA> 52 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 的 <Type> uj <STA> 55 <UNum> 1 <NSeq> [-1598844]
+    <ignored> 0 <Word> 我 <Type> r <STA> 59 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 不能 <Type> v <STA> 62 <UNum> 2 <NSeq> [-1787763, -1539139]
+    <ignored> 0 <Word> 从 <Type> p <STA> 68 <UNum> 1 <NSeq> [-1786994]
+    <ignored> 0 <Word> 早 <Type> a <STA> 71 <UNum> 1 <NSeq> [-1665111]
+    <ignored> 0 <Word> 忙 <Type> v <STA> 74 <UNum> 1 <NSeq> [-1720423]
+    <ignored> 0 <Word> 到 <Type> v <STA> 77 <UNum> 1 <NSeq> [-1734480]
+    <ignored> 0 <Word> 晚上 <Type> t <STA> 80 <UNum> 2 <NSeq> [-1664614, -1787766]
+    <ignored> 0 <Word> 又 <Type> d <STA> 87 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 90 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 框架 <Type> n <STA> 93 <UNum> 2 <NSeq> [-1662586, -1663306]
+    <ignored> 0 <Word> 设计 <Type> vn <STA> 99 <UNum> 2 <NSeq> [-1528130, -1528159]
+    <ignored> 0 <Word> 又 <Type> d <STA> 106 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 109 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 代码 <Type> n <STA> 112 <UNum> 2 <NSeq> [-1786973, -1597311]
+    <ignored> 0 <Word> 实现 <Type> v <STA> 118 <UNum> 2 <NSeq> [-1724770, -1601872]
+    <ignored> 0 <Word> 又 <Type> d <STA> 125 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 128 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 找 <Type> v <STA> 131 <UNum> 1 <NSeq> [-1668674]
+    <ignored> 0 <Word> BUG <Type> eng <STA> 134 <UNum> 3 <NSeq> [66, 85, 71]
+    <ignored> 0 <Word> 现在 <Type> t <STA> 138 <UNum> 2 <NSeq> [-1601872, -1729368]
+    <ignored> 0 <Word> 又 <Type> d <STA> 144 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 来 <Type> v <STA> 147 <UNum> 1 <NSeq> [-1663579]
+    <ignored> 0 <Word> 写 <Type> v <STA> 150 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 153 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 159 <UNum> 2 <NSeq> [-1665401, -1663828]
+    <ignored> 0 <Word> 但是 <Type> c <STA> 166 <UNum> 2 <NSeq> [-1786490, -1664849]
+    <ignored> 0 <Word> 没有 <Type> v <STA> 172 <UNum> 2 <NSeq> [-1658207, -1663863]
+    <ignored> 0 <Word> 办法 <Type> n <STA> 178 <UNum> 2 <NSeq> [-1733986, -1657963]
+    <ignored> 0 <Word> 没有 <Type> v <STA> 185 <UNum> 2 <NSeq> [-1658207, -1663863]
+    <ignored> 0 <Word> 其他 <Type> r <STA> 191 <UNum> 2 <NSeq> [-1735242, -1786986]
+    <ignored> 0 <Word> 他人 <Type> r <STA> 194 <UNum> 2 <NSeq> [-1786986, -1787206]
+    <ignored> 0 <Word> 其他人 <Type> rr <STA> 191 <UNum> 3 <NSeq> [-1735242, -1786986, -1787206]
+    <ignored> 0 <Word> 来 <Type> v <STA> 200 <UNum> 1 <NSeq> [-1663579]
+    <ignored> 0 <Word> 写 <Type> v <STA> 203 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 啊 <Type> zg <STA> 206 <UNum> 1 <NSeq> [-1731190]
+    <ignored> 0 <Word> 那 <Type> r <STA> 210 <UNum> 1 <NSeq> [-1473885]
+    <ignored> 0 <Word> 我 <Type> r <STA> 213 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 只能 <Type> v <STA> 216 <UNum> 2 <NSeq> [-1732694, -1539139]
+    <ignored> 0 <Word> 压制 <Type> n <STA> 222 <UNum> 2 <NSeq> [-1732981, -1734474]
+    <ignored> 0 <Word> 制住 <Type> v <STA> 225 <UNum> 2 <NSeq> [-1734474, -1786481]
+    <ignored> 0 <Word> 压制住 <Type> v <STA> 222 <UNum> 3 <NSeq> [-1732981, -1734474, -1786481]
+    <ignored> 0 <Word> 难过 <Type> v <STA> 231 <UNum> 2 <NSeq> [-1467714, -1523833]
+    <ignored> 0 <Word> 的 <Type> uj <STA> 237 <UNum> 1 <NSeq> [-1598844]
+    <ignored> 0 <Word> 情绪 <Type> n <STA> 240 <UNum> 2 <NSeq> [-1670267, -1590358]
+    <ignored> 0 <Word> 亲自 <Type> d <STA> 247 <UNum> 2 <NSeq> [-1787214, -1538134]
+    <ignored> 0 <Word> 写 <Type> v <STA> 253 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 这 <Type> r <STA> 256 <UNum> 1 <NSeq> [-1523815]
+    <ignored> 0 <Word> 一份 <Type> m <STA> 259 <UNum> 2 <NSeq> [-1787776, -1786947]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 265 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 271 <UNum> 2 <NSeq> [-1665401, -1663828]
+
+
+    <SEG#0>
+    其实 一 开始 要 写 这个 测试 文本 我 是 不想 写 的
+
+    <SEG#1>
+    我 不能 从 早 忙 到 晚上 又 是 框架 设计
+
+    <SEG#2>
+    又 是 代码 实现 又 是 找 BUG 现在 又 来 写 测试 文本
+
+    <SEG#3>
+    但是 没有 办法 没有 其他 他人 其他人 来 写 啊 那 我 只能 压制 制住 压制住 难过 的 情绪
+
+    <SEG#4>
+    亲自 写 这 一份 测试 文本
+
+    <LEV> size1: 12 size2: 13
+    <LEV> size1: 12 size2: 11
+    <LEV> size1: 12 size2: 14
+    <LEV> size1: 12 size2: 19
+    <LEV> size1: 12 size2: 6
+    <LEV> size1: 11 size2: 13
+    <LEV> size1: 11 size2: 11
+    <LEV> size1: 11 size2: 14
+    <LEV> size1: 11 size2: 19
+    <LEV> size1: 11 size2: 6
+    <LEV> size1: 14 size2: 13
+    <LEV> size1: 14 size2: 11
+    <LEV> size1: 14 size2: 14
+    <LEV> size1: 14 size2: 19
+    <LEV> size1: 14 size2: 6
+    <LEV> size1: 20 size2: 13
+    <LEV> size1: 20 size2: 11
+    <LEV> size1: 20 size2: 14
+    <LEV> size1: 20 size2: 19
+    <LEV> size1: 20 size2: 6
+    <LEV> size1: 6 size2: 13
+    <LEV> size1: 6 size2: 11
+    <LEV> size1: 6 size2: 14
+    <LEV> size1: 6 size2: 19
+    <LEV> size1: 6 size2: 6
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 3
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 3
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 3
+
+    85.78%
+
+开启define,关闭优化
+    <TextStream>
+    <Text>
+    其实一开始要写这个测试文本,我是拒绝的.我不能从早肝到晚上,又是框架设计,又是代码实现,又是找BUG,现在又来写测试文本.但是没有办法,没有其他人来写啊,那我只能顶着极高的自闭值,亲自写这一份测试文本.
+
+    <NumberSequence>
+    [-1735242, -1724770, -1787776, -1721216, -1726581, -1530239, -1735015, -1523815, -1787734, -1657461, -1527915, -1665401, -1663828, 44, -1668975, -1664849, -1668206, -1590371, -1598844, 46, -1668975, -1787763, -1539139, -1786994, -1665111, -1539427, -1734480, -1664614, -1787766, 44, -1732728, -1664849, -1662586, -1663306, -1528130, -1528159, 44, -1732728, -1664849, -1786973, -1597311, -1724770, -1601872, 44, -1732728, -1664849, -1668674, 66, 85, 71, 44, -1601872, -1729368, -1732728, -1663579, -1735015, -1657461, -1527915, -1665401, -1663828, 46, -1786490, -1664849, -1658207, -1663863, -1733986, -1657963, 44, -1658207, -1663863, -1735242, -1786986, -1787206, -1663579, -1735015, -1731190, 44, -1473885, -1668975, -1732694, -1539139, -1465930, -1598080, -1663359, -1463400, -1598844, -1538134, -1468499, -1736516, 44, -1787214, -1538134, -1735015, -1523815, -1787776, -1786947, -1657461, -1527915, -1665401, -1663828, 46]
+    <FlagsIgnored>
+    []
+    <KeyWords>
+    [文本:26.8346, 测试:21.4417, 自闭:12.8021]
+    [[-1665401, -1663828], [-1657461, -1527915], [-1538134, -1468499]]
+
+    <WordsInfo>
+    <ignored> 0 <Word> 其实 <Type> d <STA> 0 <UNum> 2 <NSeq> [-1735242, -1724770]
+    <ignored> 0 <Word> 一 <Type> m <STA> 6 <UNum> 1 <NSeq> [-1787776]
+    <ignored> 0 <Word> 开始 <Type> v <STA> 9 <UNum> 2 <NSeq> [-1721216, -1726581]
+    <ignored> 0 <Word> 要 <Type> v <STA> 15 <UNum> 1 <NSeq> [-1530239]
+    <ignored> 0 <Word> 写 <Type> v <STA> 18 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 这个 <Type> r <STA> 21 <UNum> 2 <NSeq> [-1523815, -1787734]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 27 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 33 <UNum> 2 <NSeq> [-1665401, -1663828]
+    <ignored> 0 <Word> 我 <Type> r <STA> 40 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 是 <Type> v <STA> 43 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 拒绝 <Type> v <STA> 46 <UNum> 2 <NSeq> [-1668206, -1590371]
+    <ignored> 0 <Word> 的 <Type> uj <STA> 52 <UNum> 1 <NSeq> [-1598844]
+    <ignored> 0 <Word> 我 <Type> r <STA> 56 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 不能 <Type> v <STA> 59 <UNum> 2 <NSeq> [-1787763, -1539139]
+    <ignored> 0 <Word> 从 <Type> p <STA> 65 <UNum> 1 <NSeq> [-1786994]
+    <ignored> 0 <Word> 早 <Type> a <STA> 68 <UNum> 1 <NSeq> [-1665111]
+    <ignored> 0 <Word> 肝 <Type> n <STA> 71 <UNum> 1 <NSeq> [-1539427]
+    <ignored> 0 <Word> 到 <Type> v <STA> 74 <UNum> 1 <NSeq> [-1734480]
+    <ignored> 0 <Word> 晚上 <Type> t <STA> 77 <UNum> 2 <NSeq> [-1664614, -1787766]
+    <ignored> 0 <Word> 又 <Type> d <STA> 84 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 87 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 框架 <Type> n <STA> 90 <UNum> 2 <NSeq> [-1662586, -1663306]
+    <ignored> 0 <Word> 设计 <Type> vn <STA> 96 <UNum> 2 <NSeq> [-1528130, -1528159]
+    <ignored> 0 <Word> 又 <Type> d <STA> 103 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 106 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 代码 <Type> n <STA> 109 <UNum> 2 <NSeq> [-1786973, -1597311]
+    <ignored> 0 <Word> 实现 <Type> v <STA> 115 <UNum> 2 <NSeq> [-1724770, -1601872]
+    <ignored> 0 <Word> 又 <Type> d <STA> 122 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 125 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 找 <Type> v <STA> 128 <UNum> 1 <NSeq> [-1668674]
+    <ignored> 0 <Word> 现在 <Type> t <STA> 135 <UNum> 2 <NSeq> [-1601872, -1729368]
+    <ignored> 0 <Word> 又 <Type> d <STA> 141 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 来 <Type> v <STA> 144 <UNum> 1 <NSeq> [-1663579]
+    <ignored> 0 <Word> 写 <Type> v <STA> 147 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 150 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 156 <UNum> 2 <NSeq> [-1665401, -1663828]
+    <ignored> 0 <Word> 但是 <Type> c <STA> 163 <UNum> 2 <NSeq> [-1786490, -1664849]
+    <ignored> 0 <Word> 没有 <Type> v <STA> 169 <UNum> 2 <NSeq> [-1658207, -1663863]
+    <ignored> 0 <Word> 办法 <Type> n <STA> 175 <UNum> 2 <NSeq> [-1733986, -1657963]
+    <ignored> 0 <Word> 没有 <Type> v <STA> 182 <UNum> 2 <NSeq> [-1658207, -1663863]
+    <ignored> 0 <Word> 其他 <Type> r <STA> 188 <UNum> 2 <NSeq> [-1735242, -1786986]
+    <ignored> 0 <Word> 他人 <Type> r <STA> 191 <UNum> 2 <NSeq> [-1786986, -1787206]
+    <ignored> 0 <Word> 其他人 <Type> rr <STA> 188 <UNum> 3 <NSeq> [-1735242, -1786986, -1787206]
+    <ignored> 0 <Word> 来 <Type> v <STA> 197 <UNum> 1 <NSeq> [-1663579]
+    <ignored> 0 <Word> 写 <Type> v <STA> 200 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 啊 <Type> zg <STA> 203 <UNum> 1 <NSeq> [-1731190]
+    <ignored> 0 <Word> 那 <Type> r <STA> 207 <UNum> 1 <NSeq> [-1473885]
+    <ignored> 0 <Word> 我 <Type> r <STA> 210 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 只能 <Type> v <STA> 213 <UNum> 2 <NSeq> [-1732694, -1539139]
+    <ignored> 0 <Word> 顶 <Type> v <STA> 219 <UNum> 1 <NSeq> [-1465930]
+    <ignored> 0 <Word> 着 <Type> uz <STA> 222 <UNum> 1 <NSeq> [-1598080]
+    <ignored> 0 <Word> 极 <Type> d <STA> 225 <UNum> 1 <NSeq> [-1663359]
+    <ignored> 0 <Word> 高 <Type> a <STA> 228 <UNum> 1 <NSeq> [-1463400]
+    <ignored> 0 <Word> 的 <Type> uj <STA> 231 <UNum> 1 <NSeq> [-1598844]
+    <ignored> 0 <Word> 自闭 <Type> v <STA> 234 <UNum> 2 <NSeq> [-1538134, -1468499]
+    <ignored> 0 <Word> 值 <Type> n <STA> 240 <UNum> 1 <NSeq> [-1736516]
+    <ignored> 0 <Word> 亲自 <Type> d <STA> 244 <UNum> 2 <NSeq> [-1787214, -1538134]
+    <ignored> 0 <Word> 写 <Type> v <STA> 250 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 这 <Type> r <STA> 253 <UNum> 1 <NSeq> [-1523815]
+    <ignored> 0 <Word> 一份 <Type> m <STA> 256 <UNum> 2 <NSeq> [-1787776, -1786947]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 262 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 268 <UNum> 2 <NSeq> [-1665401, -1663828]
+
+
+    <SEG#0>
+    其实 一 开始 要 写 这个 测试 文本 我 是 拒绝 的
+
+    <SEG#1>
+    我 不能 从 早 肝 到 晚上 又 是 框架 设计
+
+    <SEG#2>
+    又 是 代码 实现 又 是 找
+
+    <SEG#3>
+    现在 又 来 写 测试 文本
+
+    <SEG#4>
+    但是 没有 办法 没有 其他 他人 其他人 来 写 啊 那 我 只能 顶 着 极 高 的 自闭 值
+
+    <SEG#5>
+    亲自 写 这 一份 测试 文本
+
+    <TextStream>
+    <Text>
+    其实一开始要写这个测试文本,我是不想写的.我不能从早忙到晚上,又是框架设计,又是代码实现,又是找BUG,现在又来写测试文本.但是没有办法,没有其他人来写啊,那我只能压制住难过的情绪,亲自写这一份测试文本.
+
+    <NumberSequence>
+    [-1735242, -1724770, -1787776, -1721216, -1726581, -1530239, -1735015, -1523815, -1787734, -1657461, -1527915, -1665401, -1663828, 44, -1668975, -1664849, -1787763, -1670221, -1735015, -1598844, 46, -1668975, -1787763, -1539139, -1786994, -1665111, -1720423, -1734480, -1664614, -1787766, 44, -1732728, -1664849, -1662586, -1663306, -1528130, -1528159, 44, -1732728, -1664849, -1786973, -1597311, -1724770, -1601872, 44, -1732728, -1664849, -1668674, 66, 85, 71, 44, -1601872, -1729368, -1732728, -1663579, -1735015, -1657461, -1527915, -1665401, -1663828, 46, -1786490, -1664849, -1658207, -1663863, -1733986, -1657963, 44, -1658207, -1663863, -1735242, -1786986, -1787206, -1663579, -1735015, -1731190, 44, -1473885, -1668975, -1732694, -1539139, -1732981, -1734474, -1786481, -1467714, -1523833, -1598844, -1670267, -1590358, 44, -1787214, -1538134, -1735015, -1523815, -1787776, -1786947, -1657461, -1527915, -1665401, -1663828, 46]
+    <FlagsIgnored>
+    []
+    <KeyWords>
+    [文本:26.8346, 测试:21.4417, BUG:11.7392]
+    [[-1665401, -1663828], [-1657461, -1527915], [66, 85, 71]]
+
+    <WordsInfo>
+    <ignored> 0 <Word> 其实 <Type> d <STA> 0 <UNum> 2 <NSeq> [-1735242, -1724770]
+    <ignored> 0 <Word> 一 <Type> m <STA> 6 <UNum> 1 <NSeq> [-1787776]
+    <ignored> 0 <Word> 开始 <Type> v <STA> 9 <UNum> 2 <NSeq> [-1721216, -1726581]
+    <ignored> 0 <Word> 要 <Type> v <STA> 15 <UNum> 1 <NSeq> [-1530239]
+    <ignored> 0 <Word> 写 <Type> v <STA> 18 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 这个 <Type> r <STA> 21 <UNum> 2 <NSeq> [-1523815, -1787734]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 27 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 33 <UNum> 2 <NSeq> [-1665401, -1663828]
+    <ignored> 0 <Word> 我 <Type> r <STA> 40 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 是 <Type> v <STA> 43 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 不想 <Type> v <STA> 46 <UNum> 2 <NSeq> [-1787763, -1670221]
+    <ignored> 0 <Word> 写 <Type> v <STA> 52 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 的 <Type> uj <STA> 55 <UNum> 1 <NSeq> [-1598844]
+    <ignored> 0 <Word> 我 <Type> r <STA> 59 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 不能 <Type> v <STA> 62 <UNum> 2 <NSeq> [-1787763, -1539139]
+    <ignored> 0 <Word> 从 <Type> p <STA> 68 <UNum> 1 <NSeq> [-1786994]
+    <ignored> 0 <Word> 早 <Type> a <STA> 71 <UNum> 1 <NSeq> [-1665111]
+    <ignored> 0 <Word> 忙 <Type> v <STA> 74 <UNum> 1 <NSeq> [-1720423]
+    <ignored> 0 <Word> 到 <Type> v <STA> 77 <UNum> 1 <NSeq> [-1734480]
+    <ignored> 0 <Word> 晚上 <Type> t <STA> 80 <UNum> 2 <NSeq> [-1664614, -1787766]
+    <ignored> 0 <Word> 又 <Type> d <STA> 87 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 90 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 框架 <Type> n <STA> 93 <UNum> 2 <NSeq> [-1662586, -1663306]
+    <ignored> 0 <Word> 设计 <Type> vn <STA> 99 <UNum> 2 <NSeq> [-1528130, -1528159]
+    <ignored> 0 <Word> 又 <Type> d <STA> 106 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 109 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 代码 <Type> n <STA> 112 <UNum> 2 <NSeq> [-1786973, -1597311]
+    <ignored> 0 <Word> 实现 <Type> v <STA> 118 <UNum> 2 <NSeq> [-1724770, -1601872]
+    <ignored> 0 <Word> 又 <Type> d <STA> 125 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 128 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 找 <Type> v <STA> 131 <UNum> 1 <NSeq> [-1668674]
+    <ignored> 0 <Word> 现在 <Type> t <STA> 138 <UNum> 2 <NSeq> [-1601872, -1729368]
+    <ignored> 0 <Word> 又 <Type> d <STA> 144 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 来 <Type> v <STA> 147 <UNum> 1 <NSeq> [-1663579]
+    <ignored> 0 <Word> 写 <Type> v <STA> 150 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 153 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 159 <UNum> 2 <NSeq> [-1665401, -1663828]
+    <ignored> 0 <Word> 但是 <Type> c <STA> 166 <UNum> 2 <NSeq> [-1786490, -1664849]
+    <ignored> 0 <Word> 没有 <Type> v <STA> 172 <UNum> 2 <NSeq> [-1658207, -1663863]
+    <ignored> 0 <Word> 办法 <Type> n <STA> 178 <UNum> 2 <NSeq> [-1733986, -1657963]
+    <ignored> 0 <Word> 没有 <Type> v <STA> 185 <UNum> 2 <NSeq> [-1658207, -1663863]
+    <ignored> 0 <Word> 其他 <Type> r <STA> 191 <UNum> 2 <NSeq> [-1735242, -1786986]
+    <ignored> 0 <Word> 他人 <Type> r <STA> 194 <UNum> 2 <NSeq> [-1786986, -1787206]
+    <ignored> 0 <Word> 其他人 <Type> rr <STA> 191 <UNum> 3 <NSeq> [-1735242, -1786986, -1787206]
+    <ignored> 0 <Word> 来 <Type> v <STA> 200 <UNum> 1 <NSeq> [-1663579]
+    <ignored> 0 <Word> 写 <Type> v <STA> 203 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 啊 <Type> zg <STA> 206 <UNum> 1 <NSeq> [-1731190]
+    <ignored> 0 <Word> 那 <Type> r <STA> 210 <UNum> 1 <NSeq> [-1473885]
+    <ignored> 0 <Word> 我 <Type> r <STA> 213 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 只能 <Type> v <STA> 216 <UNum> 2 <NSeq> [-1732694, -1539139]
+    <ignored> 0 <Word> 压制 <Type> n <STA> 222 <UNum> 2 <NSeq> [-1732981, -1734474]
+    <ignored> 0 <Word> 制住 <Type> v <STA> 225 <UNum> 2 <NSeq> [-1734474, -1786481]
+    <ignored> 0 <Word> 压制住 <Type> v <STA> 222 <UNum> 3 <NSeq> [-1732981, -1734474, -1786481]
+    <ignored> 0 <Word> 难过 <Type> v <STA> 231 <UNum> 2 <NSeq> [-1467714, -1523833]
+    <ignored> 0 <Word> 的 <Type> uj <STA> 237 <UNum> 1 <NSeq> [-1598844]
+    <ignored> 0 <Word> 情绪 <Type> n <STA> 240 <UNum> 2 <NSeq> [-1670267, -1590358]
+    <ignored> 0 <Word> 亲自 <Type> d <STA> 247 <UNum> 2 <NSeq> [-1787214, -1538134]
+    <ignored> 0 <Word> 写 <Type> v <STA> 253 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 这 <Type> r <STA> 256 <UNum> 1 <NSeq> [-1523815]
+    <ignored> 0 <Word> 一份 <Type> m <STA> 259 <UNum> 2 <NSeq> [-1787776, -1786947]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 265 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 271 <UNum> 2 <NSeq> [-1665401, -1663828]
+
+
+    <SEG#0>
+    其实 一 开始 要 写 这个 测试 文本 我 是 不想 写 的
+
+    <SEG#1>
+    我 不能 从 早 忙 到 晚上 又 是 框架 设计
+
+    <SEG#2>
+    又 是 代码 实现 又 是 找
+
+    <SEG#3>
+    现在 又 来 写 测试 文本
+
+    <SEG#4>
+    但是 没有 办法 没有 其他 他人 其他人 来 写 啊 那 我 只能 压制 制住 压制住 难过 的 情绪
+
+    <SEG#5>
+    亲自 写 这 一份 测试 文本
+
+    <LEV> size1: 12 size2: 13
+    <LEV> size1: 12 size2: 11
+    <LEV> size1: 12 size2: 7
+    <LEV> size1: 12 size2: 6
+    <LEV> size1: 12 size2: 19
+    <LEV> size1: 12 size2: 6
+    <LEV> size1: 11 size2: 13
+    <LEV> size1: 11 size2: 11
+    <LEV> size1: 11 size2: 7
+    <LEV> size1: 11 size2: 6
+    <LEV> size1: 11 size2: 19
+    <LEV> size1: 11 size2: 6
+    <LEV> size1: 7 size2: 13
+    <LEV> size1: 7 size2: 11
+    <LEV> size1: 7 size2: 7
+    <LEV> size1: 7 size2: 6
+    <LEV> size1: 7 size2: 19
+    <LEV> size1: 7 size2: 6
+    <LEV> size1: 6 size2: 13
+    <LEV> size1: 6 size2: 11
+    <LEV> size1: 6 size2: 7
+    <LEV> size1: 6 size2: 6
+    <LEV> size1: 6 size2: 19
+    <LEV> size1: 6 size2: 6
+    <LEV> size1: 20 size2: 13
+    <LEV> size1: 20 size2: 11
+    <LEV> size1: 20 size2: 7
+    <LEV> size1: 20 size2: 6
+    <LEV> size1: 20 size2: 19
+    <LEV> size1: 20 size2: 6
+    <LEV> size1: 6 size2: 13
+    <LEV> size1: 6 size2: 11
+    <LEV> size1: 6 size2: 7
+    <LEV> size1: 6 size2: 6
+    <LEV> size1: 6 size2: 19
+    <LEV> size1: 6 size2: 6
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 3
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 3
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 3
+
+    88.15%
+
+开启define,开启O2优化
+    <TextStream>
+    <Text>
+    其实一开始要写这个测试文本,我是拒绝的.我不能从早肝到晚上,又是框架设计,又是代码实现,又是找BUG,现在又来写测试文本.但是没有办法,没有其他人来写啊,那我只能顶着极高的自闭值,亲自写这一份测试文本.
+
+    <NumberSequence>
+    [-1735242, -1724770, -1787776, -1721216, -1726581, -1530239, -1735015, -1523815, -1787734, -1657461, -1527915, -1665401, -1663828, 44, -1668975, -1664849, -1668206, -1590371, -1598844, 46, -1668975, -1787763, -1539139, -1786994, -1665111, -1539427, -1734480, -1664614, -1787766, 44, -1732728, -1664849, -1662586, -1663306, -1528130, -1528159, 44, -1732728, -1664849, -1786973, -1597311, -1724770, -1601872, 44, -1732728, -1664849, -1668674, 66, 85, 71, 44, -1601872, -1729368, -1732728, -1663579, -1735015, -1657461, -1527915, -1665401, -1663828, 46, -1786490, -1664849, -1658207, -1663863, -1733986, -1657963, 44, -1658207, -1663863, -1735242, -1786986, -1787206, -1663579, -1735015, -1731190, 44, -1473885, -1668975, -1732694, -1539139, -1465930, -1598080, -1663359, -1463400, -1598844, -1538134, -1468499, -1736516, 44, -1787214, -1538134, -1735015, -1523815, -1787776, -1786947, -1657461, -1527915, -1665401, -1663828, 46]
+    <FlagsIgnored>
+    []
+    <KeyWords>
+    [文本:26.8346, 测试:21.4417, 自闭:12.8021]
+    [[-1665401, -1663828], [-1657461, -1527915], [-1538134, -1468499]]
+
+    <WordsInfo>
+    <ignored> 0 <Word> 其实 <Type> d <STA> 0 <UNum> 2 <NSeq> [-1735242, -1724770]
+    <ignored> 0 <Word> 一 <Type> m <STA> 6 <UNum> 1 <NSeq> [-1787776]
+    <ignored> 0 <Word> 开始 <Type> v <STA> 9 <UNum> 2 <NSeq> [-1721216, -1726581]
+    <ignored> 0 <Word> 要 <Type> v <STA> 15 <UNum> 1 <NSeq> [-1530239]
+    <ignored> 0 <Word> 写 <Type> v <STA> 18 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 这个 <Type> r <STA> 21 <UNum> 2 <NSeq> [-1523815, -1787734]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 27 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 33 <UNum> 2 <NSeq> [-1665401, -1663828]
+    <ignored> 0 <Word> 我 <Type> r <STA> 40 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 是 <Type> v <STA> 43 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 拒绝 <Type> v <STA> 46 <UNum> 2 <NSeq> [-1668206, -1590371]
+    <ignored> 0 <Word> 的 <Type> uj <STA> 52 <UNum> 1 <NSeq> [-1598844]
+    <ignored> 0 <Word> 我 <Type> r <STA> 56 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 不能 <Type> v <STA> 59 <UNum> 2 <NSeq> [-1787763, -1539139]
+    <ignored> 0 <Word> 从 <Type> p <STA> 65 <UNum> 1 <NSeq> [-1786994]
+    <ignored> 0 <Word> 早 <Type> a <STA> 68 <UNum> 1 <NSeq> [-1665111]
+    <ignored> 0 <Word> 肝 <Type> n <STA> 71 <UNum> 1 <NSeq> [-1539427]
+    <ignored> 0 <Word> 到 <Type> v <STA> 74 <UNum> 1 <NSeq> [-1734480]
+    <ignored> 0 <Word> 晚上 <Type> t <STA> 77 <UNum> 2 <NSeq> [-1664614, -1787766]
+    <ignored> 0 <Word> 又 <Type> d <STA> 84 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 87 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 框架 <Type> n <STA> 90 <UNum> 2 <NSeq> [-1662586, -1663306]
+    <ignored> 0 <Word> 设计 <Type> vn <STA> 96 <UNum> 2 <NSeq> [-1528130, -1528159]
+    <ignored> 0 <Word> 又 <Type> d <STA> 103 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 106 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 代码 <Type> n <STA> 109 <UNum> 2 <NSeq> [-1786973, -1597311]
+    <ignored> 0 <Word> 实现 <Type> v <STA> 115 <UNum> 2 <NSeq> [-1724770, -1601872]
+    <ignored> 0 <Word> 又 <Type> d <STA> 122 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 125 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 找 <Type> v <STA> 128 <UNum> 1 <NSeq> [-1668674]
+    <ignored> 0 <Word> BUG <Type> eng <STA> 131 <UNum> 3 <NSeq> [66, 85, 71]
+    <ignored> 0 <Word> 现在 <Type> t <STA> 135 <UNum> 2 <NSeq> [-1601872, -1729368]
+    <ignored> 0 <Word> 又 <Type> d <STA> 141 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 来 <Type> v <STA> 144 <UNum> 1 <NSeq> [-1663579]
+    <ignored> 0 <Word> 写 <Type> v <STA> 147 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 150 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 156 <UNum> 2 <NSeq> [-1665401, -1663828]
+    <ignored> 0 <Word> 但是 <Type> c <STA> 163 <UNum> 2 <NSeq> [-1786490, -1664849]
+    <ignored> 0 <Word> 没有 <Type> v <STA> 169 <UNum> 2 <NSeq> [-1658207, -1663863]
+    <ignored> 0 <Word> 办法 <Type> n <STA> 175 <UNum> 2 <NSeq> [-1733986, -1657963]
+    <ignored> 0 <Word> 没有 <Type> v <STA> 182 <UNum> 2 <NSeq> [-1658207, -1663863]
+    <ignored> 0 <Word> 其他 <Type> r <STA> 188 <UNum> 2 <NSeq> [-1735242, -1786986]
+    <ignored> 0 <Word> 他人 <Type> r <STA> 191 <UNum> 2 <NSeq> [-1786986, -1787206]
+    <ignored> 0 <Word> 其他人 <Type> rr <STA> 188 <UNum> 3 <NSeq> [-1735242, -1786986, -1787206]
+    <ignored> 0 <Word> 来 <Type> v <STA> 197 <UNum> 1 <NSeq> [-1663579]
+    <ignored> 0 <Word> 写 <Type> v <STA> 200 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 啊 <Type> zg <STA> 203 <UNum> 1 <NSeq> [-1731190]
+    <ignored> 0 <Word> 那 <Type> r <STA> 207 <UNum> 1 <NSeq> [-1473885]
+    <ignored> 0 <Word> 我 <Type> r <STA> 210 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 只能 <Type> v <STA> 213 <UNum> 2 <NSeq> [-1732694, -1539139]
+    <ignored> 0 <Word> 顶 <Type> v <STA> 219 <UNum> 1 <NSeq> [-1465930]
+    <ignored> 0 <Word> 着 <Type> uz <STA> 222 <UNum> 1 <NSeq> [-1598080]
+    <ignored> 0 <Word> 极 <Type> d <STA> 225 <UNum> 1 <NSeq> [-1663359]
+    <ignored> 0 <Word> 高 <Type> a <STA> 228 <UNum> 1 <NSeq> [-1463400]
+    <ignored> 0 <Word> 的 <Type> uj <STA> 231 <UNum> 1 <NSeq> [-1598844]
+    <ignored> 0 <Word> 自闭 <Type> v <STA> 234 <UNum> 2 <NSeq> [-1538134, -1468499]
+    <ignored> 0 <Word> 值 <Type> n <STA> 240 <UNum> 1 <NSeq> [-1736516]
+    <ignored> 0 <Word> 亲自 <Type> d <STA> 244 <UNum> 2 <NSeq> [-1787214, -1538134]
+    <ignored> 0 <Word> 写 <Type> v <STA> 250 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 这 <Type> r <STA> 253 <UNum> 1 <NSeq> [-1523815]
+    <ignored> 0 <Word> 一份 <Type> m <STA> 256 <UNum> 2 <NSeq> [-1787776, -1786947]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 262 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 268 <UNum> 2 <NSeq> [-1665401, -1663828]
+
+
+    <SEG#0>
+    其实 一 开始 要 写 这个 测试 文本 我 是 拒绝 的
+
+    <SEG#1>
+    我 不能 从 早 肝 到 晚上 又 是 框架 设计
+
+    <SEG#2>
+    又 是 代码 实现 又 是 找 BUG 现在 又 来 写 测试 文本
+
+    <SEG#3>
+    但是 没有 办法 没有 其他 他人 其他人 来 写 啊 那 我 只能 顶 着 极 高 的 自闭 值
+
+    <SEG#4>
+    亲自 写 这 一份 测试 文本
+
+    <TextStream>
+    <Text>
+    其实一开始要写这个测试文本,我是不想写的.我不能从早忙到晚上,又是框架设计,又是代码实现,又是找BUG,现在又来写测试文本.但是没有办法,没有其他人来写啊,那我只能压制住难过的情绪,亲自写这一份测试文本.
+
+    <NumberSequence>
+    [-1735242, -1724770, -1787776, -1721216, -1726581, -1530239, -1735015, -1523815, -1787734, -1657461, -1527915, -1665401, -1663828, 44, -1668975, -1664849, -1787763, -1670221, -1735015, -1598844, 46, -1668975, -1787763, -1539139, -1786994, -1665111, -1720423, -1734480, -1664614, -1787766, 44, -1732728, -1664849, -1662586, -1663306, -1528130, -1528159, 44, -1732728, -1664849, -1786973, -1597311, -1724770, -1601872, 44, -1732728, -1664849, -1668674, 66, 85, 71, 44, -1601872, -1729368, -1732728, -1663579, -1735015, -1657461, -1527915, -1665401, -1663828, 46, -1786490, -1664849, -1658207, -1663863, -1733986, -1657963, 44, -1658207, -1663863, -1735242, -1786986, -1787206, -1663579, -1735015, -1731190, 44, -1473885, -1668975, -1732694, -1539139, -1732981, -1734474, -1786481, -1467714, -1523833, -1598844, -1670267, -1590358, 44, -1787214, -1538134, -1735015, -1523815, -1787776, -1786947, -1657461, -1527915, -1665401, -1663828, 46]
+    <FlagsIgnored>
+    []
+    <KeyWords>
+    [文本:26.8346, 测试:21.4417, BUG:11.7392]
+    [[-1665401, -1663828], [-1657461, -1527915], [66, 85, 71]]
+
+    <WordsInfo>
+    <ignored> 0 <Word> 其实 <Type> d <STA> 0 <UNum> 2 <NSeq> [-1735242, -1724770]
+    <ignored> 0 <Word> 一 <Type> m <STA> 6 <UNum> 1 <NSeq> [-1787776]
+    <ignored> 0 <Word> 开始 <Type> v <STA> 9 <UNum> 2 <NSeq> [-1721216, -1726581]
+    <ignored> 0 <Word> 要 <Type> v <STA> 15 <UNum> 1 <NSeq> [-1530239]
+    <ignored> 0 <Word> 写 <Type> v <STA> 18 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 这个 <Type> r <STA> 21 <UNum> 2 <NSeq> [-1523815, -1787734]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 27 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 33 <UNum> 2 <NSeq> [-1665401, -1663828]
+    <ignored> 0 <Word> 我 <Type> r <STA> 40 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 是 <Type> v <STA> 43 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 不想 <Type> v <STA> 46 <UNum> 2 <NSeq> [-1787763, -1670221]
+    <ignored> 0 <Word> 写 <Type> v <STA> 52 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 的 <Type> uj <STA> 55 <UNum> 1 <NSeq> [-1598844]
+    <ignored> 0 <Word> 我 <Type> r <STA> 59 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 不能 <Type> v <STA> 62 <UNum> 2 <NSeq> [-1787763, -1539139]
+    <ignored> 0 <Word> 从 <Type> p <STA> 68 <UNum> 1 <NSeq> [-1786994]
+    <ignored> 0 <Word> 早 <Type> a <STA> 71 <UNum> 1 <NSeq> [-1665111]
+    <ignored> 0 <Word> 忙 <Type> v <STA> 74 <UNum> 1 <NSeq> [-1720423]
+    <ignored> 0 <Word> 到 <Type> v <STA> 77 <UNum> 1 <NSeq> [-1734480]
+    <ignored> 0 <Word> 晚上 <Type> t <STA> 80 <UNum> 2 <NSeq> [-1664614, -1787766]
+    <ignored> 0 <Word> 又 <Type> d <STA> 87 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 90 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 框架 <Type> n <STA> 93 <UNum> 2 <NSeq> [-1662586, -1663306]
+    <ignored> 0 <Word> 设计 <Type> vn <STA> 99 <UNum> 2 <NSeq> [-1528130, -1528159]
+    <ignored> 0 <Word> 又 <Type> d <STA> 106 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 109 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 代码 <Type> n <STA> 112 <UNum> 2 <NSeq> [-1786973, -1597311]
+    <ignored> 0 <Word> 实现 <Type> v <STA> 118 <UNum> 2 <NSeq> [-1724770, -1601872]
+    <ignored> 0 <Word> 又 <Type> d <STA> 125 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 是 <Type> v <STA> 128 <UNum> 1 <NSeq> [-1664849]
+    <ignored> 0 <Word> 找 <Type> v <STA> 131 <UNum> 1 <NSeq> [-1668674]
+    <ignored> 0 <Word> BUG <Type> eng <STA> 134 <UNum> 3 <NSeq> [66, 85, 71]
+    <ignored> 0 <Word> 现在 <Type> t <STA> 138 <UNum> 2 <NSeq> [-1601872, -1729368]
+    <ignored> 0 <Word> 又 <Type> d <STA> 144 <UNum> 1 <NSeq> [-1732728]
+    <ignored> 0 <Word> 来 <Type> v <STA> 147 <UNum> 1 <NSeq> [-1663579]
+    <ignored> 0 <Word> 写 <Type> v <STA> 150 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 153 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 159 <UNum> 2 <NSeq> [-1665401, -1663828]
+    <ignored> 0 <Word> 但是 <Type> c <STA> 166 <UNum> 2 <NSeq> [-1786490, -1664849]
+    <ignored> 0 <Word> 没有 <Type> v <STA> 172 <UNum> 2 <NSeq> [-1658207, -1663863]
+    <ignored> 0 <Word> 办法 <Type> n <STA> 178 <UNum> 2 <NSeq> [-1733986, -1657963]
+    <ignored> 0 <Word> 没有 <Type> v <STA> 185 <UNum> 2 <NSeq> [-1658207, -1663863]
+    <ignored> 0 <Word> 其他 <Type> r <STA> 191 <UNum> 2 <NSeq> [-1735242, -1786986]
+    <ignored> 0 <Word> 他人 <Type> r <STA> 194 <UNum> 2 <NSeq> [-1786986, -1787206]
+    <ignored> 0 <Word> 其他人 <Type> rr <STA> 191 <UNum> 3 <NSeq> [-1735242, -1786986, -1787206]
+    <ignored> 0 <Word> 来 <Type> v <STA> 200 <UNum> 1 <NSeq> [-1663579]
+    <ignored> 0 <Word> 写 <Type> v <STA> 203 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 啊 <Type> zg <STA> 206 <UNum> 1 <NSeq> [-1731190]
+    <ignored> 0 <Word> 那 <Type> r <STA> 210 <UNum> 1 <NSeq> [-1473885]
+    <ignored> 0 <Word> 我 <Type> r <STA> 213 <UNum> 1 <NSeq> [-1668975]
+    <ignored> 0 <Word> 只能 <Type> v <STA> 216 <UNum> 2 <NSeq> [-1732694, -1539139]
+    <ignored> 0 <Word> 压制 <Type> n <STA> 222 <UNum> 2 <NSeq> [-1732981, -1734474]
+    <ignored> 0 <Word> 制住 <Type> v <STA> 225 <UNum> 2 <NSeq> [-1734474, -1786481]
+    <ignored> 0 <Word> 压制住 <Type> v <STA> 222 <UNum> 3 <NSeq> [-1732981, -1734474, -1786481]
+    <ignored> 0 <Word> 难过 <Type> v <STA> 231 <UNum> 2 <NSeq> [-1467714, -1523833]
+    <ignored> 0 <Word> 的 <Type> uj <STA> 237 <UNum> 1 <NSeq> [-1598844]
+    <ignored> 0 <Word> 情绪 <Type> n <STA> 240 <UNum> 2 <NSeq> [-1670267, -1590358]
+    <ignored> 0 <Word> 亲自 <Type> d <STA> 247 <UNum> 2 <NSeq> [-1787214, -1538134]
+    <ignored> 0 <Word> 写 <Type> v <STA> 253 <UNum> 1 <NSeq> [-1735015]
+    <ignored> 0 <Word> 这 <Type> r <STA> 256 <UNum> 1 <NSeq> [-1523815]
+    <ignored> 0 <Word> 一份 <Type> m <STA> 259 <UNum> 2 <NSeq> [-1787776, -1786947]
+    <ignored> 0 <Word> 测试 <Type> vn <STA> 265 <UNum> 2 <NSeq> [-1657461, -1527915]
+    <ignored> 0 <Word> 文本 <Type> n <STA> 271 <UNum> 2 <NSeq> [-1665401, -1663828]
+
+
+    <SEG#0>
+    其实 一 开始 要 写 这个 测试 文本 我 是 不想 写 的
+
+    <SEG#1>
+    我 不能 从 早 忙 到 晚上 又 是 框架 设计
+
+    <SEG#2>
+    又 是 代码 实现 又 是 找 BUG 现在 又 来 写 测试 文本
+
+    <SEG#3>
+    但是 没有 办法 没有 其他 他人 其他人 来 写 啊 那 我 只能 压制 制住 压制住 难过 的 情绪
+
+    <SEG#4>
+    亲自 写 这 一份 测试 文本
+
+    <LEV> size1: 12 size2: 13
+    <LEV> size1: 12 size2: 11
+    <LEV> size1: 12 size2: 14
+    <LEV> size1: 12 size2: 19
+    <LEV> size1: 12 size2: 6
+    <LEV> size1: 11 size2: 13
+    <LEV> size1: 11 size2: 11
+    <LEV> size1: 11 size2: 14
+    <LEV> size1: 11 size2: 19
+    <LEV> size1: 11 size2: 6
+    <LEV> size1: 14 size2: 13
+    <LEV> size1: 14 size2: 11
+    <LEV> size1: 14 size2: 14
+    <LEV> size1: 14 size2: 19
+    <LEV> size1: 14 size2: 6
+    <LEV> size1: 20 size2: 13
+    <LEV> size1: 20 size2: 11
+    <LEV> size1: 20 size2: 14
+    <LEV> size1: 20 size2: 19
+    <LEV> size1: 20 size2: 6
+    <LEV> size1: 6 size2: 13
+    <LEV> size1: 6 size2: 11
+    <LEV> size1: 6 size2: 14
+    <LEV> size1: 6 size2: 19
+    <LEV> size1: 6 size2: 6
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 3
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 3
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 2
+    <LEV> size1: 2 size2: 3
+
+    85.78%
